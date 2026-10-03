@@ -1,0 +1,50 @@
+{
+  "name": "dsh-codex-panel",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codex 模式悬浮控制面板 / Floating control panel for DSH Codex mode — one-tap approval toggle for git & GitHub write tools, plus live balance.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "codex",
+    "approval",
+    "git-manager",
+    "panel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianai05233/dsh-codex-panel.git"
+  },
+  "homepage": "https://github.com/qianai05233/dsh-codex-panel#readme",
+  "bugs": {
+    "url": "https://github.com/qianai05233/dsh-codex-panel/issues"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    },
+    "engines": {
+      "dsh": ">=0.1.7-rc.1"
+    }
+  }
+}
