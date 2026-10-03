@@ -1,0 +1,18 @@
+{
+  "screenshots": [
+    {
+      "path": "docs/collapsed.png",
+      "caption": {
+        "en": "The collapsed capsule in the top-right corner, showing 8/8 write tools pre-approved.",
+        "zh": "右上角收起态胶囊，显示 8/8 写工具已预批准。"
+      }
+    },
+    {
+      "path": "docs/expanded.png",
+      "caption": {
+        "en": "Expanded panel: the master switch, eight per-tool toggles, and the live balance.",
+        "zh": "展开面板：总开关、八个逐项开关，以及实时余额。"
+      }
+    }
+  ]
+}

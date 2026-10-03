@@ -35,6 +35,10 @@
     "README.md",
     "LICENSE"
   ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "react": "^18.2.0"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
